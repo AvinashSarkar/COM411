@@ -20,7 +20,7 @@ weight = float(input("How much do you weigh?"))
 # Calculate the BMI
 bmi = weight / (height ** 2)
 
-# Display the results
-print(f"{name}, you are {age} years old and your BMI is {bmi:.2f}.")
+
+
 
 
