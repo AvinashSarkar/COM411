@@ -1,9 +1,7 @@
-print("Where are you?")
-location = input()
+print("What type of book do you have?")
+book = input()
 
-if location == "southampton":
-    print("set alarm to 8:00")
-elif location == "eastleigh":
-    print("set alarm to 7:00")
+if book == "adventure":
+    print("I like adventure books!")
 else:
-    print("set alarm to 6:00")
+    print("Finished reading book.")
