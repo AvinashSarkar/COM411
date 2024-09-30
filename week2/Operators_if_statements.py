@@ -43,3 +43,4 @@ else:
     odd_count += 1
 
 print(f"There are {even_count} even numbers and {odd_count} odd numbers.")
+
