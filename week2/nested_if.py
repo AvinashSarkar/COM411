@@ -24,3 +24,4 @@ elif place == "in the living room":
 
 else:
     print("I dont know where that is but I will keep looking!")
+
