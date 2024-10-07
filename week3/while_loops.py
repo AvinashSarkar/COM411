@@ -75,3 +75,21 @@ while summed < numbers_to_sum:
     summed = summed + 1
 
 print(f"The number is {total}")
+
+
+print("How many mountains should I display?")
+mountains = int(input())
+
+print("Displaying...")
+
+for mountains in range(mountains):
+    print(""" 
+    __
+     / \_
+     /^ \
+     / ^ \_
+     _/ ^ ^ ^\
+     / ^ ^ \ 
+
+
+    """)
