@@ -36,3 +36,13 @@ while bars_charged < bars_to_charge:
 print("This battery is fully charged.")
 
 
+print("Please enter a phrase.")
+phrase = input()
+
+i = 0
+
+print()
+
+while i < len(phrase):
+    print("Hi ", end="")
+    i = i + 1
