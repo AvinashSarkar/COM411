@@ -58,3 +58,20 @@ while number <= 100:
     number = number + 1
 
 print(f"...Done! The answer is {total}")
+
+
+print("How many numbers should I sum up?")
+numbers_to_sum = int(input())
+
+summed = 0
+total = 0
+
+print()
+
+while summed < numbers_to_sum:
+    print(f"Please enter number: {summed} of {numbers_to_sum}:")
+    number = int(input())
+    total = total + number
+    summed = summed + 1
+
+print(f"The number is {total}")
