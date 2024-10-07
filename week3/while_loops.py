@@ -91,5 +91,26 @@ for mountains in range(mountains):
      _/ ^ ^ ^\
      / ^ ^ \ 
 
-
     """)
+
+
+print("How far are we from the target?")
+distance = int(input())
+
+print()
+
+for count in range(distance, 0, -1):
+    print(f"{count} steps remaining")
+
+print("Target achieved!")
+
+
+print("What level of brightness is required?")
+brightness_lvl = int(input())
+
+print("\nAdjusting brightness...\n")
+
+for brightness in range(2, brightness_lvl + 1, 2):
+    print(f"Brightness level: {'*' * brightness}")
+
+print("Complete!")
