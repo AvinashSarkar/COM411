@@ -37,3 +37,34 @@ def run_task3():
 
 if __name__ == '__main__':
     run_task3()
+
+
+def menu_and_input():
+    steps = directions()
+
+    print("Please select a direction: ")
+    for index, steps in enumerate(steps):
+        print(f"{index}: {steps}")
+
+    while True:
+        try:
+            choice = int(input("Please select the index: "))
+            if 0 <= choice < len(steps):
+                return steps[choice]
+            else:
+                print("Please select a valid index.")
+        except ValueError:
+            print("Please select a valid number.")
+
+def main_task():
+    route = []
+    print("Working out escape route...")
+
+    for i in range(5):
+        direction = menu_and_input()
+        route.append(direction)
+
+    print(f"\nEscape route: {route}")
+
+if __name__ == '__main__':
+    main_task()
