@@ -23,3 +23,17 @@ def run_task2():
 
 if __name__ == '__main__':
     run_task2()
+
+
+def menu():
+    print("Please select a direction: ")
+    steps = directions()
+
+    for index, steps in enumerate(steps):
+        print(f"{index}: {steps}")
+
+def run_task3():
+    menu()
+
+if __name__ == '__main__':
+    run_task3()
